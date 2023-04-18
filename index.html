@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles/20.css">
+    <script src="./script/20.js"></script>
+    <style>
+        .grid {
+            display: grid;
+            gap: 1px;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .box {
+        padding: 30px;
+        /* background: #ccc; */
+        color: #AAA;
+        border: 1px solid #555;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        }
+
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+        <article>
+            <header>
+                <h1>폭탄게임</h1>
+                <h2></h2>
+            </header>
+            <div class="grid">
+                <div id="box1" class="box"></div>
+                <div id="box2" class="box"></div>
+                <div id="box3" class="box"></div>
+            </div>
+            <div class="grid">
+                <div id="box4" class="box"></div>
+                <div id="box5" class="box"></div>
+                <div id="box6" class="box"></div>
+            </div>
+            <div class="grid">
+                <div id="box7" class="box"></div>
+                <div id="box8" class="box"></div>
+                <div id="box9" class="box"></div>
+            </div>
+            <!-- <div class="f-box" style="border: 1px;">dd</div> -->
+        </article>
+        <footer>
+            <button id="bt1" type="reset">폭탄 섞기</button>
+        </footer>
+    </main>
+    
+</body>
+</html>
